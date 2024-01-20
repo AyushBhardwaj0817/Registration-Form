@@ -4,7 +4,7 @@ Made by-Ayush Bhardwaj
 <br>
 ----------------------------
 <br>
-Project Overview: Registration Form🚀
+Project Overview: Registration Form🚀🚀
 <br>
 1. HTML (index.html):
 <br>
@@ -54,11 +54,11 @@ Project Overview: Registration Form🚀
 <br>
 •This project serves as a basic template for creating a registration form on a website.
 <br>
-It demonstrates the use of HTML for structure, CSS for styling, and JavaScript for handling form interactions.
+•It demonstrates the use of HTML for structure, CSS for styling, and JavaScript for handling form interactions.
 <br>
-You can extend the functionality by adding more validation, connecting to a server for data storage, or integrating with a backend.
+•You can extend the functionality by adding more validation, connecting to a server for data storage, or integrating with a backend.
 <br>
-This is a simple example to get you started. Depending on your project requirements, you may want to enhance features, security, and user experience.
+•This is a simple example to get you started. Depending on your project requirements, you may want to enhance features, security, and user experience.
 
 
 
