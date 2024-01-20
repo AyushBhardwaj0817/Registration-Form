@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form autocomplete="off" class="form" onsubmit="return validateForm()">
+       <p class="title">Registration Form</p>
+       <p class="message">Signup now to get full access to our app.</p>
+       <div class="form-group">
+            <label>
+                <input type="text" id="firstname" required>
+                <span>Firstname</span>
+            </label>
+            <label>
+                <input type="text" id="lastname" required>
+                <span>Lastname</span>
+            </label>
+        </div>
+        <label>
+            <input type="email" id="email" required>
+            <span>Email</span>
+        </label>
+        <label>
+            <input type="password" id="password" required>
+            <span>Password</span>
+            <span class="icon" id="togglePassword">
+                <i class="far fa-eye-slash"></i>
+            </span>
+        </label>
+        <label>
+            <input type="password" id="passwordConfirm" required>
+            <span>Confirm password</span>
+            <span class="icon" id="togglePasswordConfirm">
+                <i class="far fa-eye-slash"></i>
+            </span>
+        </label>
+        <button type="submit" class="submit">Submit</button>
+        <p class="signin">
+            Already have an account?
+            <a href="#">Sign in</a>
+        </p>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
+
